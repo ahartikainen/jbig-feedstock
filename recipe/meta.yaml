@@ -17,11 +17,24 @@ source:
 
 build:
   number: 0
-  skip: true  # [win]
 
 requirements:
   build:
     - toolchain
+    - m2-bash # [win]
+    - m2-autoconf # [win]
+    - m2-autoconf-wrapper # [win]
+    - m2-curl # [win]
+    - m2-findutils # [win]
+    - m2-grep # [win]
+    - m2-libtool # [win]
+    - m2-make # [win]
+    - m2-which # [win]
+    - m2w64-binutils # [win]
+    - m2w64-pcre # [win]
+    - m2w64-gcc # [win]
+    - m2w64-toolchain # [win]
+    - m2w64-tools-git # [win]
 
 test:
   commands:
