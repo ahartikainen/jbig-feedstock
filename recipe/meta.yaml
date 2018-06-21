@@ -35,6 +35,8 @@ requirements:
     - m2w64-gcc # [win]
     - m2w64-toolchain # [win]
     - m2w64-tools-git # [win]
+  run
+    - m2w64-gcc-libs # [win]
 
 test:
   commands:
